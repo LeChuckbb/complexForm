@@ -1,9 +1,10 @@
 import Title from "./Title";
 import Body from "./Body";
 import { Props } from "./types";
+import { Container } from "./style";
 
 const Callout = ({ children }: Props) => {
-  return <div style={{ background: "blue" }}>{children}</div>;
+  return <Container>{children}</Container>;
 };
 
 Callout.Title = Title;
